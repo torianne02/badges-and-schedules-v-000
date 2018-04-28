@@ -15,7 +15,6 @@ def assign_rooms(speakers)
   speakers.each do |name|
     room_number = speakers.index(name) + 1
     welcome_message = "Hello, #{name}! You'll be assigned to room #{room_number}!"
-    return welcome_message
     room_assignments << welcome_message
   end
   return room_assignments
