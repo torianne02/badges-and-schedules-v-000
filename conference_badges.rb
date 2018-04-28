@@ -20,3 +20,7 @@ def assign_rooms(speakers)
   end
   return room_assignments
 end
+
+def printer(attendees)
+  print assign_rooms(speakers)
+end
